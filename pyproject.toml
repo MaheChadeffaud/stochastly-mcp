@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stochastly-mcp"
+version = "0.1.0"
+description = "Local launcher for the MCP server included with the Stochastly desktop app"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["mcp>=1.0,<2"]
+
+[project.scripts]
+stochastly-mcp = "stochastly_mcp_launcher:main"
+
+[project.urls]
+Homepage = "https://stochastly.com/product/mcp"
+Pricing = "https://stochastly.com/pricing"
+
+[tool.setuptools]
+py-modules = ["stochastly_mcp_launcher"]
