@@ -17,3 +17,11 @@ The server exposes 29 tools, among them `node_catalog`, `compose_graph`, `backte
 Without the app, the launcher lists the same 29 tools (names, descriptions, input schemas and annotations from `stochastly_mcp_data/tools_manifest.json`, generated from the app's server), so a client can see what the server offers. Each description then starts with a note that the desktop app is required, and every call returns a structured answer with `ok: false`, the edition needed and a link to [pricing](https://stochastly.com/pricing). The manifest is metadata only.
 
 For a nonstandard installation, set `STOCHASTLY_MCP_SCRIPT` to the installed app's `stochastly_mcp.py`. This is a local path, not a network endpoint.
+
+## Links
+
+- [MCP server overview](https://stochastly.com/product/mcp): what the server does and which clients it supports.
+- [MCP server reference](https://stochastly.com/docs/mcp): the 29 tools, their inputs and which ones write.
+- [Documentation](https://stochastly.com/docs): the Stochastly desktop app, from data import to research papers.
+- [Comparison with other backtesting tools](https://stochastly.com/compare): how Stochastly differs from other backtesting software.
+- [Pricing](https://stochastly.com/pricing): Atelier and Portfolio editions, 14-day trial.
