@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stochastly": {
+      "command": "uvx",
+      "args": ["stochastly-mcp"]
+    }
+  }
+}
